@@ -1,5 +1,5 @@
 # Advent of Code 2018
-> My submits for [https://adventofcode.com/](Advent of Code 2018)
+> My submits for https://adventofcode.com/
 
 ## Languages used
 > I have tried to write each submit in both `C` and `Python`.
