@@ -11,5 +11,9 @@ int main(int argc, char* argv[]) {
         calc += atoi(token);
     }
 
-    printf("%d", calc);
+    free(input);
+    free(token);
+
+    printf("%d\n", calc);
+    return 0;
 }
