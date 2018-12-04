@@ -23,9 +23,10 @@ int assert_count_char(char* identifier, int n) {
 int main(int argc, char* argv[]) {
     char* input = read_file("input.txt");
 
-    char* token;
     int calc_2 = 0;
     int calc_3 = 0;
+
+    char* token;
     while ((token = strsep(&input, "\n"))) {
         if (assert_count_char(token, 2))
             calc_2++;

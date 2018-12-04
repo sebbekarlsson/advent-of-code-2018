@@ -7,9 +7,9 @@ int main(int argc, char* argv[]) {
 
     char* token;
     int calc = 0;
-    while ((token = strsep(&input, "\n"))) {
+    
+    while ((token = strsep(&input, "\n")))
         calc += atoi(token);
-    }
 
     free(input);
     free(token);
